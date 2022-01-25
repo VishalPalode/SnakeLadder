@@ -13,7 +13,8 @@ namespace SnakeAndLadder
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Snake And Ladder");
-            Console.WriteLine("Position:"+POSITION);
+            DieRolled d=new DieRolled();
+            d.playerRolledDie();
             Console.ReadLine();
         }
     }
