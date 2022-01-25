@@ -14,7 +14,7 @@ namespace SnakeAndLadder
         {
             Console.WriteLine("Welcome to Snake And Ladder");
             DieRolled d=new DieRolled();
-            d.playerRolledDie();
+            d.StartPlaying();
             Console.ReadLine();
         }
     }
