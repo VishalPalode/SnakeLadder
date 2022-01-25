@@ -8,9 +8,12 @@ namespace SnakeAndLadder
 {
     internal class Program
     {
+        const int POSITION = 0;
+
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Snake And Ladder");
+            Console.WriteLine("Position:"+POSITION);
             Console.ReadLine();
         }
     }
