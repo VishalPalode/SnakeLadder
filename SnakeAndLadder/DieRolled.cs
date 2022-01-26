@@ -8,8 +8,7 @@ namespace SnakeAndLadder
 {
     internal class DieRolled
     {
-        class SinglePlayer
-        {
+       
             public const int NO_PLAY = 0, SNAKE = 1, LADDER = 2, WINNING = 100;
             public int StartPoint = 0;
             public int DiceRoll;
@@ -52,7 +51,8 @@ namespace SnakeAndLadder
                 Console.WriteLine("congratulation");
                 Console.WriteLine("Game ended");
             }
-        }
+        
     }
-} 
+}
+
 
