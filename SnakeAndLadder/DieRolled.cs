@@ -8,7 +8,7 @@ namespace SnakeAndLadder
 {
     internal class DieRolled
     {
-        public const int NO_PLAY = 0, SNAKE = 1, LADDER = 2;
+        public const int NO_PLAY = 0, SNAKE = 2, LADDER = 1;
         public int StartPoint = 0;
         public int DiceRoll;
         int Option = 0;
@@ -24,11 +24,11 @@ namespace SnakeAndLadder
                 case NO_PLAY:
                     Console.WriteLine("No Play");
                     break;
-                case SNAKE:
+                case LADDER:
                     StartPoint += DiceRoll;
                     Console.WriteLine("Got Ladder:" + StartPoint);
                     break;
-                case LADDER:
+                case SNAKE:
                     StartPoint -= DiceRoll;
                     Console.WriteLine("Snake Attack:" + StartPoint);
                     break;
